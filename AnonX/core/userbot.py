@@ -49,8 +49,8 @@ class Userbot(Client):
             await self.one.start()
             try:
                 await self.one.join_chat("DevilsHeavenMF")
-                await self.one.join_chat("FallenAssociation")
-                await self.one.join_chat("OneShotFlash")
+                await self.one.join_chat("NidhiStatus")
+                await self.one.join_chat("ExtremeFlash")
             except:
                 pass
             assistants.append(1)
